@@ -56,7 +56,7 @@ public class BasicCalculator {
             System.out.println("Enter second number to subtract: ");
             int num2 = myScanner.nextInt();
 
-            int sum = num1 + num2;
+            int sum = num1 - num2;
 
             System.out.println("The answer is: " +  sum);
         }

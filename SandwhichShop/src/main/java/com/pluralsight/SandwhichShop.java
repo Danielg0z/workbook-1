@@ -3,8 +3,11 @@ package com.pluralsight;
 import java.util.Scanner;
 
 public class SandwhichShop {
+
+    static Scanner myScanner = new Scanner(System.in); // intialized scanner
+
     public static void main(String[] args) {
-        Scanner myScanner = new Scanner(System.in); // intialized scanner
+
 
         System.out.println("Welcome to the Sandwhich Shop!");
         System.out.println("\nWhat would you like to order? ");
@@ -43,5 +46,7 @@ public class SandwhichShop {
             }
 
         }
+
+        static
     }
 }
